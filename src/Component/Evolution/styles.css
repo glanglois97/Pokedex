@@ -1,0 +1,11 @@
+.evolution-container {
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.evolutions-title {
+    width: 100%;
+    text-align: center;
+}

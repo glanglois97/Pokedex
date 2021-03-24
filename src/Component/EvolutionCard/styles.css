@@ -1,0 +1,20 @@
+.selected{
+    transform: scale(1.2);
+}
+.evolution-card  {
+    justify-content: center;
+    display: flex;
+    width: 25%;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5);
+    transition: ease-in-out .5s;
+}
+.evolution-card:hover{
+    transform: scale(1.1);
+}
+.evolution-name {
+    width: 100%;
+    text-align: center;
+}
+.evolution-pokemon-sprite {
+    margin: 0 auto;
+}

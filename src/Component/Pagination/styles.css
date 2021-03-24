@@ -1,0 +1,23 @@
+.pagination {
+    width: 100%;
+    text-align: center;
+}
+button {
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 18px;
+    text-align: center;
+}
+button:active{
+    border-radius: 2px;
+}
+.currentPage {
+    background-color: #2a75bb;
+    transform: scale(1.2);
+}

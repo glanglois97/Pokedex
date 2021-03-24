@@ -1,0 +1,52 @@
+.main {
+    margin: 2em auto;
+    width: 50%;
+    text-align: center;
+    border: 1px black solid;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5);
+}
+.main-pokemon-sprite {
+    width: 50%;
+}
+.types {
+    background-color: #2a75bb;
+    color: white;
+    border-top: black 1px solid;
+    display: flex;
+    justify-content: space-around;
+}
+.stats-title {
+    width: 100%;
+}
+.stats {
+    border-top: black 1px solid;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.stat {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+}
+.stat:last-of-type {
+    border-bottom: none;
+}
+.stat-name {
+    padding-left: 15%;
+    text-align: left;
+    width: 50%;
+}
+.stat-value {
+    width: 50%;
+}
+.back {
+    display: block;
+    width: 100%;
+    font-size: 2em;
+    margin-left: 2em;
+    margin-top: 1em;
+    color: black;
+    text-decoration: none;
+}
