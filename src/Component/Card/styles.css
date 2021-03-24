@@ -17,3 +17,12 @@ transform: scale(1.2);
     text-decoration: none;
     color: black;
 }
+@media only screen and (max-width: 600px) {
+    .card {
+        width: 80%;
+        margin: 2em 0;
+    }
+    .card:hover{
+        transform: scale(1.1);
+    }
+}

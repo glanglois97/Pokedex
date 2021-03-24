@@ -43,10 +43,19 @@
 }
 .back {
     display: block;
-    width: 100%;
     font-size: 2em;
-    margin-left: 2em;
+    padding-left: 2em;
     margin-top: 1em;
     color: black;
     text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+    .main {
+        width: 90%;
+        margin-top: .5em;
+    }
+    .back {
+        font-size: 1.5em;
+        margin-top: .5em;
+    }
 }

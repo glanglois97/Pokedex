@@ -9,3 +9,8 @@
     width: 100%;
     text-align: center;
 }
+@media only screen and (max-width: 600px) {
+    .evolution-container {
+        width: 90%;
+    }
+}

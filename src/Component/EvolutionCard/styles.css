@@ -18,3 +18,10 @@
 .evolution-pokemon-sprite {
     margin: 0 auto;
 }
+@media only screen and (max-width: 600px) {
+    .evolution-card {
+        flex-wrap: wrap;
+        width: 60%;
+        margin: 2em 0;
+    }
+}
